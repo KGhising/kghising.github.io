@@ -1,0 +1,168 @@
+/* color
+    #F3641B
+    #A4D0BC
+    #FDE306
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/*****
+        common
+******/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p, label{
+    color: #A4D0BC;
+    font-size: 28px;
+    font-family: Microsoft Yi Baiti;
+}
+strong{
+    font-weight: normal;
+    color: #F3641B;
+    font-family: Lucida Console;
+}
+.phase1, .phase2, .phase3, .phase3, .phase4, .phase5, .phase6, .phase7{
+    height: 100vh;
+}
+
+ul li{
+    list-style-type: none;
+}
+ul li p:hover{
+    cursor: pointer;
+    color: #FDE306;
+}
+
+/*****
+        fixed items
+******/
+.smedia{
+    top: 43%;
+    right: 0;
+    margin-right: 5.8em;
+}
+.smedia a{
+    display: list-item;
+    list-style-type: none;
+    color: #F3641B;
+}
+.smedia a i:hover{
+    color: #A4D0BC;
+}
+.vlt {
+    border-left: 1px solid #FDE306;
+    height: 270px;
+    left: 92%;
+    top: 0;
+}
+.vlb{
+    border-left: 1px solid #FDE306;
+    height: 265px;
+    left: 92%;
+    bottom: 0;
+  }
+
+button{
+    background-color: transparent;
+    top: 50%;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    border: 1px #F3641B solid;
+    display: none;
+}
+button i{
+    color: #F3641B;
+}
+/*****
+        css for pahase 2
+******/
+.phase2 .intro{
+    margin-top: 17%;
+}
+
+/*****
+        css for pahase 3
+******/
+.phase3 .code-skill{
+    margin-top: 15%;
+}
+
+/*****
+        css for pahase 4
+******/
+.phase4 .project{
+    margin-top: 15%;
+}
+.project .link{
+    margin-top: 3rem;
+}
+.project .link li{
+    margin-top: 2rem;
+}
+.link i{             /* for all included link*/
+    color: #FDE306;
+}
+.link i:hover{
+    color: #A4D0BC;
+}
+
+/*****
+        css for pahase 5
+******/
+.phase5 .experience{
+    margin-top: 20%;
+}
+.experience .link{
+    margin-top: 8rem;
+}
+/*****
+        css for pahase 6
+******/
+.phase6 .get-in-touch{
+    margin-top: 10%;
+}
+
+.get-in-touch input, textarea{
+    background-color: transparent;
+    border: #FDE306 1px solid;
+    width: 20rem;
+}
+.get-in-touch .post{
+    color: #F3641B; 
+    font-family: Microsoft Yi Baiti; 
+    font-size: 24px; 
+    font-weight: bold;
+}
+.get-in-touch img{
+    width: 10rem;
+    border: #FDE306 1px solid;
+    cursor: pointer;
+    filter: hue-rotate(180deg);
+
+}
+.get-in-touch img:hover{
+    filter: hue-rotate(0);
+}
+
+.photo p{
+    font-size: 18px;
+}
+
+/*****
+        css for pahase 7
+******/
+.phase7 .motive{
+    margin-top: 20%;
+}
+
+.phase7 .contact{
+    margin-top: 12rem;
+}
+
+.phase7 .contact p{
+    font-size: 20px;
+}
