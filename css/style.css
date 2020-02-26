@@ -54,14 +54,14 @@ ul li p:hover{
 }
 .vlt {
     border-left: 1px solid #FDE306;
-    height: 270px;
-    left: 92%;
+    height: 272px;
+    right: 7.5%;
     top: 0;
 }
 .vlb{
     border-left: 1px solid #FDE306;
     height: 265px;
-    left: 92%;
+    right: 7.5%;
     bottom: 0;
   }
 
