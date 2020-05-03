@@ -73,26 +73,33 @@ button{
     border-radius: 100%;
     border: 1px #F3641B solid;
     display: none;
+    padding-bottom: 4px;
 }
 button i{
     color: #F3641B;
 }
+button:focus{
+    outline: none;
+}
+button:active{
+    box-shadow: 0 0 5px #F3641B;
+}
 /*****
-        css for pahase 2
+        css for pahase 2 / about
 ******/
 .phase2 .intro{
     margin-top: 17%;
 }
 
 /*****
-        css for pahase 3
+        css for pahase 3 / skill
 ******/
 .phase3 .code-skill{
     margin-top: 15%;
 }
 
 /*****
-        css for pahase 4
+        css for pahase 4 / project
 ******/
 .phase4 .project{
     margin-top: 15%;
@@ -105,13 +112,14 @@ button i{
 }
 .link i{             /* for all included link*/
     color: #FDE306;
+    margin-left: 10px;
 }
 .link i:hover{
     color: #A4D0BC;
 }
 
 /*****
-        css for pahase 5
+        css for pahase 5 / experience
 ******/
 .phase5 .experience{
     margin-top: 20%;
@@ -120,7 +128,7 @@ button i{
     margin-top: 8rem;
 }
 /*****
-        css for pahase 6
+        css for pahase 6 / get in touch
 ******/
 .phase6 .get-in-touch{
     margin-top: 10%;
@@ -130,12 +138,14 @@ button i{
     background-color: transparent;
     border: #FDE306 1px solid;
     width: 20rem;
+    resize: none;
 }
 .get-in-touch .post{
     color: #F3641B; 
     font-family: Microsoft Yi Baiti; 
     font-size: 24px; 
     font-weight: bold;
+    padding-bottom: 5px;
 }
 .get-in-touch img{
     width: 10rem;
@@ -148,12 +158,28 @@ button i{
     filter: hue-rotate(0);
 }
 
+.get-in-touch .post:hover{
+    background-color: #F3641B;
+    color: #A4D0BC;
+    border-color: #F3641B;
+}
+
+.get-in-touch input:focus, 
+textarea:focus{
+    outline: none;
+    box-shadow: 0 0 5px #FDE306;
+}
+.get-in-touch .post:focus{
+    background-color: #F3641B;
+    color: #A4D0BC;
+    border-color: #F3641B;
+}
 .photo p{
     font-size: 18px;
 }
 
 /*****
-        css for pahase 7
+        css for pahase 7 / footer
 ******/
 .phase7 .motive{
     margin-top: 20%;
